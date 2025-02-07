@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 60%;
+    margin: 50px auto;
+    border: 1px solid #000;
+    background: #fff;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.banniere {
+    text-align: center;
+    font-weight: bold;
+    background: #f9f9f9;
+    border-bottom: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banniere img.logo {
+    width: 250px;
+    height: 160px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.banniere, .pied-de-page {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    background: #f9f9f9;
+    border-bottom: 1px solid #000;
+}
+
+.pied-de-page {
+    border-top: 1px solid #000;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+label {
+    font-weight: bold;
+    margin-right: auto;
+}
+
+input {
+    width: 20%;
+    padding: 8px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    margin-right: -80px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid #385d8a; 
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #000;
+    margin-top: 10px;
+    width: 50%;
+}
+
+
+button.btn-secondary {
+    background-color: #555;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.result-box {
+    background-color: #e0f4ff;
+    border: 1px solid #000;
+    padding: 10px;
+    display: inline-block;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.result-box span {
+    font-weight: bold;
+}
+
+.failure-message {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
