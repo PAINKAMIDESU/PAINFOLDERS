@@ -14,11 +14,14 @@
         <main class="content">
             <form action="result_message.html">
                 <label for="etudiant">Étudiant</label>
-                <input type="text" id="etudiant" name="etudiant">
+                <input type="text" id="etudiant" name="etudiant" required>
+
                 <label for="maths">Maths</label>
-                <input type="text" id="maths" name="maths">
+                <input type="number" id="maths" name="maths" required min="0" max="20" step="0.01">
+
                 <label for="informatique">Informatique</label>
-                <input type="text" id="informatique" name="informatique">
+                <input type="number" id="informatique" name="informatique" required min="0" max="20" step="0.01">
+
                 <button type="submit" class="btn">Résultat</button>
                 <button type="reset" class="btn btn-secondary">Annuler</button>
             </form>
